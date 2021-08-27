@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>EasyBg</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2><a id="logo" href="./index.html">EasyBg</a></h2>
+        <form class="search-form">
+          <div class="input-group">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search free Photos here"
+              class="search-input"
+            />
+            <button class="btn submit-btn" type="submit">Search</button>
+          </div>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section class="suggest">
+        <div class="suggest__list">
+          <button class="suggest__item">mountain</button>
+          <button class="suggest__item">beach</button>
+          <button class="suggest__item">sunset</button>
+          <button class="suggest__item">ocean</button>
+          <button class="suggest__item l--item">landscape</button>
+          <button class="suggest__item l--item">birds</button>
+          <button class="suggest__item l--item">cats</button>
+        </div>
+      </section>
+      <div class="gallery"></div>
+    </main>
+    <div class="nav-btn">
+      <button class="more">More</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
